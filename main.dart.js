@@ -82955,7 +82955,7 @@ case 3:return A.N(null,r)}})
 return A.O($async$r1,r)},
 L(a){var s,r,q=null,p=this.c,o=A.dO(p,q,q,q,B.bX,q,q),n=$.a1().rY(20,20,B.bh)
 o=A.akJ(B.y,0,A.FI(A.Vy(A.dH(q,q,B.r,A.V(B.c.aw(127.5),0,0,0),q,q,q,q,q,q),n),B.V),B.lx,o)
-n=A.eX(A.akS(B.lA,A.apW("http://45.147.177.71:8000/images/"+p,B.lE,q,q),B.bz),500,1/0)
+n=A.eX(A.akS(B.lA,A.apW("https://www.bpc-llm.store/images/"+p,B.lE,q,q),B.bz),500,1/0)
 s=A.alf(q,q,B.mg,q,q,q,q,q,q,q,q,q,q,q,q,new A.c1(A.mJ(10),B.o),q,q,q,q)
 r=t.p
 return A.am1(o,A.arw(A.dH(q,new A.cy(B.fh,A.jh(A.b([B.yL,n,B.kD,A.eX(A.Zq(A.lE(A.b([B.F7,B.NQ,A.dO("chat with "+p,q,q,q,B.z2,q,q)],r),B.b_,B.tx,B.aM),this.ga7b(),s),40,1/0),B.kD,B.SL,A.dO(this.d,q,q,q,B.z7,q,q)],r),B.bP,B.aS,B.aM),q),B.r,q,q,B.il,q,q,q,q)),q,!0,!0)}}
@@ -82965,7 +82965,7 @@ A.Pr.prototype={
 q3(){var s=0,r=A.P(t.WC),q,p,o
 var $async$q3=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=3
-return A.U(A.auC(A.eA("http://45.147.177.71:8000/characters/",0,null)),$async$q3)
+return A.U(A.auC(A.eA("https://www.bpc-llm.store/characters/",0,null)),$async$q3)
 case 3:o=b
 if(o.b===200){p=J.uu(B.c1.F9(A.auu(A.atn(o.e).c.a.h(0,"charset")).eV(o.w),null),new A.afd(),t.zR)
 q=A.a0(p,!0,p.$ti.i("as.E"))
@@ -83001,7 +83001,7 @@ return new A.pA(s.h(r,b).b,s.h(r,b).d,s.h(r,b).e,null)},
 $S:488}
 A.pA.prototype={
 L(a){var s=null,r=A.akM(B.CY,0.1),q=A.mJ(20),p=A.V(102,66,66,66),o=this.c,n=t.p
-return new A.cy(B.Ek,A.nh(s,A.dH(s,new A.cy(B.mL,A.lE(A.b([new A.cy(B.mL,A.akS(B.lA,A.apW("http://45.147.177.71:8000/images/"+o,B.lE,1/0,100),B.bz),s),A.ZW(new A.cy(B.mM,A.jh(A.b([A.jh(A.b([A.dO(o,s,s,s,B.kM,s,s),B.SJ,A.eX(s,10,s),A.dO(this.d,2,B.aH,s,B.z7,B.b5,s)],n),B.bP,B.aS,B.aM)],n),B.bP,B.ty,B.aM),s),1)],n),B.b_,B.aS,B.aM),s),B.r,s,s,new A.d5(p,s,r,q,B.nF,s,B.aB),150,s,s,s),B.as,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.WE(this,a),s,s,s),s)}}
+return new A.cy(B.Ek,A.nh(s,A.dH(s,new A.cy(B.mL,A.lE(A.b([new A.cy(B.mL,A.akS(B.lA,A.apW("https://www.bpc-llm.store/images/"+o,B.lE,1/0,100),B.bz),s),A.ZW(new A.cy(B.mM,A.jh(A.b([A.jh(A.b([A.dO(o,s,s,s,B.kM,s,s),B.SJ,A.eX(s,10,s),A.dO(this.d,2,B.aH,s,B.z7,B.b5,s)],n),B.bP,B.aS,B.aM)],n),B.bP,B.ty,B.aM),s),1)],n),B.b_,B.aS,B.aM),s),B.r,s,s,new A.d5(p,s,r,q,B.nF,s,B.aB),150,s,s,s),B.as,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.WE(this,a),s,s,s),s)}}
 A.WE.prototype={
 $0(){var s=A.alJ(new A.WD(this.a),null,t.z)
 A.qH(this.b).m6(s)},
@@ -83087,7 +83087,7 @@ this.vC()},
 vC(){var s=0,r=A.P(t.H),q=this,p
 var $async$vC=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.U(A.auC(A.eA("http://45.147.177.71:8000/users/"+B.h.k(q.a.c.a.a),0,null)),$async$vC)
+return A.U(A.auC(A.eA("https://www.bpc-llm.store/users/"+B.h.k(q.a.c.a.a),0,null)),$async$vC)
 case 2:p=b
 if(p.b===200)q.al(new A.ai2(q,B.c1.eV(A.auu(A.atn(p.e).c.a.h(0,"charset")).eV(p.w))))
 else A.kH("Failed to fetch user data")
@@ -83109,7 +83109,7 @@ if(o.length!==0)j.n(0,"age",A.fM(o,null))
 if(n.length!==0)j.n(0,"country",n)
 if(m.length!==0)j.n(0,"bio",m)
 if(l.length!==0)j.n(0,"gender",l)
-i=A.eA("http://45.147.177.71:8000/user_update/",0,null)
+i=A.eA("https://www.bpc-llm.store/user_update/",0,null)
 k=A.af(["Content-Type","application/json"],k,k)
 h=A
 s=2
