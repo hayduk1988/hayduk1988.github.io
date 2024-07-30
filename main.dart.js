@@ -83401,7 +83401,7 @@ m=p.a.c
 s=A.f2(A.alC(B.lR,A.aqI("https://www.bpc-llm.store/images/"+m,B.lV,o,o),B.bC),500,1/0)
 r=A.am_(o,o,B.iT,o,o,o,o,o,o,o,o,o,o,o,new A.c3(A.jk(10),B.p),o,o,o,o)
 q=t.p
-return A.amL(n,A.asi(A.dm(o,new A.cj(B.EB,A.h_(A.b([B.hR,s,B.yU,A.f2(A.w9(A.iU(A.b([B.Ft,B.Oa,A.dg("chat with "+m,o,o,o,B.zb,o,o)],q),B.aN,B.tI,B.am),p.ga7p(),r),40,1/0),B.yU,B.T2,A.dg(p.a.d,o,o,o,B.zg,o,o)],q),B.bq,B.aF,B.am),o),B.r,o,o,B.iu,1/0,o,o,o)),o,!0,!0)}}
+return A.amL(n,A.asi(A.dm(o,new A.cj(B.EB,A.h_(A.b([B.hR,s,B.yU,A.f2(A.w9(A.iU(A.b([B.Ft,B.Oa,A.dg("chat with "+m,o,o,o,B.zb,o,o)],q),B.aN,B.tI,B.am),p.ga7p(),r),40,1/0),B.yU,B.T3,A.dg(p.a.d,o,o,o,B.zg,o,o)],q),B.bq,B.aF,B.am),o),B.r,o,o,B.iu,1/0,o,o,o)),o,!0,!0)}}
 A.vl.prototype={
 ai(){return new A.MV(B.k)}}
 A.MV.prototype={
@@ -83458,7 +83458,7 @@ $1(a){return new A.kf(null)},
 $S:90}
 A.Fz.prototype={
 L(a){var s=null,r=A.Fk(B.D9,0.1),q=A.jk(20),p=A.V(102,66,66,66),o=this.c,n=t.p
-return new A.cj(B.mV,A.nt(s,A.dm(s,new A.cj(B.mX,A.iU(A.b([new A.cj(B.mX,A.alC(B.lR,A.aqI("https://www.bpc-llm.store/images/"+o,B.lV,1/0,100),B.bC),s),A.a_h(new A.cj(B.mY,A.h_(A.b([A.h_(A.b([A.dg(o,s,s,s,B.l_,s,s),B.T0,A.f2(s,10,s),A.dg(this.d,2,B.aK,s,B.zg,B.b6,s)],n),B.bq,B.aF,B.am)],n),B.bq,B.tJ,B.am),s),1)],n),B.aN,B.aF,B.am),s),B.r,s,s,new A.cS(p,s,r,q,B.fY,s,B.as),150,s,s,s),B.az,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.X_(this,a),s,s,s),s)}}
+return new A.cj(B.mV,A.nt(s,A.dm(s,new A.cj(B.mX,A.iU(A.b([new A.cj(B.mX,A.alC(B.lR,A.aqI("https://www.bpc-llm.store/images/"+o,B.lV,1/0,100),B.bC),s),A.a_h(new A.cj(B.mY,A.h_(A.b([A.h_(A.b([A.dg(o,s,s,s,B.l_,s,s),B.T1,A.f2(s,10,s),A.dg(this.d,2,B.aK,s,B.zg,B.b6,s)],n),B.bq,B.aF,B.am)],n),B.bq,B.tJ,B.am),s),1)],n),B.aN,B.aF,B.am),s),B.r,s,s,new A.cS(p,s,r,q,B.fY,s,B.as),150,s,s,s),B.az,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.X_(this,a),s,s,s),s)}}
 A.X_.prototype={
 $0(){var s=A.Ik(new A.WZ(this.a),null,t.z)
 A.ly(this.b).jW(s)},
@@ -83503,7 +83503,7 @@ case 5:return A.L(null,r)
 case 1:return A.K(p,r)}})
 return A.M($async$vE,r)},
 L(a){var s=this,r=null,q=s.f[s.e-1],p=s.a.c,o=s.d,n=$.a0(),m=n.t0(20,20,B.bh),l=B.c.aw(127.5)
-m=A.alu(B.y,0,A.FV(A.VT(A.dm(r,r,B.r,A.V(l,0,0,0),r,r,r,r,r,r),m),B.X),r,B.T3)
+m=A.alu(B.y,0,A.FV(A.VT(A.dm(r,r,B.r,A.V(l,0,0,0),r,r,r,r,r,r),m),B.X),r,B.T0)
 o=A.dm(r,[new A.vl(q,r),new A.An(p,o,r)][s.w],B.r,r,r,B.iu,r,r,r,r)
 n=n.t0(20,20,B.bh)
 l=A.V(l,0,0,0)
@@ -83539,7 +83539,7 @@ if($.e2==null)$.e2=new A.hl()
 if($.mS==null)$.mS=new A.pB()
 J.Vd(Telegram.WebApp.BackButton)},
 L(a){var s=this,r=null,q=A.alu(B.o,r,r,B.lO,B.T_),p=A.Fk(B.i,0.3),o=A.jk(12),n=t.p
-return A.amL(q,A.dm(r,A.h_(A.b([A.dm(r,new A.cj(B.d3,A.iU(A.b([A.h_(A.b([B.l3,A.dg("free",r,r,r,B.l0,r,r)],n),B.bq,B.aF,B.am),A.w9(B.l2,new A.ahN(a),r)],n),B.aN,B.cf,B.am),r),B.r,r,r,new A.cS(B.y,r,p,o,B.fY,r,B.as),r,B.mT,r,r),s.Bl("\ud83e\udd49 Bronze","+30","$10.89 / month"),s.Bl("\ud83e\udd48 Silver","+70","$14.89 / month"),s.Bl("\ud83e\udd47 Gold","+210","$18.89 / month"),B.kR,s.a11(),B.Oj,A.f2(A.w9(B.T1,new A.ahO(s),A.am_(r,r,B.iT,r,r,r,r,r,r,r,r,r,r,r,new A.c3(A.jk(10),B.p),r,r,r,r)),40,1/0),B.hR],n),B.bq,B.aF,B.am),B.r,r,r,B.iu,r,r,B.d3,r),r,!1,!1)},
+return A.amL(q,A.dm(r,A.h_(A.b([A.dm(r,new A.cj(B.d3,A.iU(A.b([A.h_(A.b([B.l3,A.dg("free",r,r,r,B.l0,r,r)],n),B.bq,B.aF,B.am),A.w9(B.l2,new A.ahN(a),r)],n),B.aN,B.cf,B.am),r),B.r,r,r,new A.cS(B.y,r,p,o,B.fY,r,B.as),r,B.mT,r,r),s.Bl("\ud83e\udd49 Bronze","+30","$10.89 / month"),s.Bl("\ud83e\udd48 Silver","+70","$14.89 / month"),s.Bl("\ud83e\udd47 Gold","+210","$18.89 / month"),B.kR,s.a11(),B.Oj,A.f2(A.w9(B.T2,new A.ahO(s),A.am_(r,r,B.iT,r,r,r,r,r,r,r,r,r,r,r,new A.c3(A.jk(10),B.p),r,r,r,r)),40,1/0),B.hR],n),B.bq,B.aF,B.am),B.r,r,r,B.iu,r,r,B.d3,r),r,!1,!1)},
 rB(){var s=0,r=A.N(t.H),q=this,p,o
 var $async$rB=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:p=q.f.h(0,q.d)
@@ -89166,14 +89166,14 @@ B.RN=new A.q(!0,B.o,null,"Roboto",B.O,null,null,null,null,null,null,null,null,nu
 B.SX=new A.dP(B.St,B.Q9,B.QX,B.RC,B.RP,B.PF,B.QB,B.PJ,B.Rp,B.S0,B.R2,B.S1,B.Sa,B.RD,B.RN)
 B.SZ=new A.ej("This info will be used by girls to understand your personality:",null,B.bZ,null,null,null,null,null,null)
 B.T_=new A.ej("Memberships",null,B.bZ,null,null,null,null,null,null)
+B.T0=new A.ej("The Peach1",null,B.bZ,null,null,null,null,null,null)
 B.Rs=new A.q(!0,B.o,null,null,null,null,null,B.cy,B.bs,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.l2=new A.ej("Upgrade",null,B.Rs,null,null,null,null,null,null)
 B.zf=new A.q(!0,B.tU,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T0=new A.ej("By ADMIN",null,B.zf,B.hU,null,null,null,null,null)
-B.T1=new A.ej("Upgrade",null,B.l_,null,null,null,null,null,null)
+B.T1=new A.ej("By ADMIN",null,B.zf,B.hU,null,null,null,null,null)
+B.T2=new A.ej("Upgrade",null,B.l_,null,null,null,null,null,null)
 B.Q5=new A.q(!0,B.i,null,null,null,null,null,B.af,B.bs,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T2=new A.ej("About:",null,B.Q5,B.dv,null,null,null,null,null)
-B.T3=new A.ej("The Peach",null,B.bZ,null,null,null,null,null,null)
+B.T3=new A.ej("About:",null,B.Q5,B.dv,null,null,null,null,null)
 B.l3=new A.ej("Your current membership",null,B.zf,null,null,null,null,null,null)
 B.T4=new A.ej("Save",null,B.zb,null,null,null,null,null,null)
 B.SI=new A.q(!0,B.tV,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
