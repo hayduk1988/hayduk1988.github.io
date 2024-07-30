@@ -14230,7 +14230,7 @@ _.d=d
 _.e=e
 _.f=f},
 QI:function QI(){},
-Kh(a,b,c,d,e,f){return new A.yY(e,f,a,c,b,d,null)},
+Kh(a,b,c,d,e,f){return new A.yY(!0,f,a,c,b,d,null)},
 Kk(a){var s=a.lW(t.Np)
 if(s!=null)return s
 throw A.e(A.no(A.b([A.jz("Scaffold.of() called with a context that does not contain a Scaffold."),A.b5("No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.wi('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.wi("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function."),a.afB("The context used was")],t.D)))},
@@ -53767,19 +53767,16 @@ return b instanceof A.ti&&b.r===s.r&&b.e===s.e&&b.f===s.f},
 gA(a){var s=this
 return A.I(A.al.prototype.gA.call(s,0),s.r,s.e,s.f,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.MG.prototype={
-L(a){var s=this
-if(!s.d&&!s.e)return s.c
-return new A.x8(new A.abN(s),null)}}
+L(a){return new A.x8(new A.abN(this),null)}}
 A.abN.prototype={
 $2(a,b){var s,r,q,p,o
 t.fh.a(b)
 s=A.bD(a,null,t.w).w
-r=this.a
-q=s.r
-p=q.d
-if(r.d)p=Math.max(p,b.e)
-o=q.b
-return A.xt(r.c,s.xy(q.Rw(p,r.e?Math.max(o,b.f+b.r):o)))},
+r=s.r
+q=Math.max(r.d,b.e)
+p=this.a
+o=r.b
+return A.xt(p.c,s.xy(r.Rw(q,p.e?Math.max(o,b.f+b.r):o)))},
 $S:231}
 A.ah5.prototype={
 zj(a8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3=this,a4=A.Wc(a8),a5=a8.a,a6=a4.zH(a5),a7=a8.b
@@ -54011,82 +54008,82 @@ qD(a,b,c,d,e,f,g){return this.B8(a,b,c,!1,!1,d,e,f,g)},
 B7(a,b,c,d,e,f,g,h){return this.B8(a,b,c,d,!1,e,f,g,h)},
 Kg(a,b){this.a.toString},
 Kf(a,b){this.a.toString},
-L(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f={},e=A.W(a),d=a.am(t.I)
-d.toString
-s=d.w
+L(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g={},f=A.W(a),e=a.am(t.I)
+e.toString
+s=e.w
 r=A.b([],t.s9)
-d=h.a
-q=d.c
-p=d.d
-o=d.f
-n=d.e
-d=d.CW
-h.gmN()
-h.a0D(r,new A.MG(new A.qz(o,h.f),q,p,g),B.id,!0,d!=null,!1,!1,n!=null)
-if(h.dy)h.qD(r,A.arc(!0,g,h.fr,!1,g,g,g),B.ih,!0,!0,!0,!0)
-if(h.a.e!=null){d=A.bD(a,B.bj,t.w).w
-d=h.r=A.ayS(a,h.a.e.fx)+d.r.b
-q=h.a.e
+e=i.a
+q=e.d
+p=e.f
+o=e.e
+e=e.CW
+i.gmN()
+i.a0D(r,new A.MG(new A.qz(p,i.f),!0,q,h),B.id,!0,e!=null,!1,!1,o!=null)
+if(i.dy)i.qD(r,A.arc(!0,h,i.fr,!1,h,h,h),B.ih,!0,!0,!0,!0)
+if(i.a.e!=null){e=A.bD(a,B.bj,t.w).w
+e=i.r=A.ayS(a,i.a.e.fx)+e.r.b
+q=i.a.e
 q.toString
-h.qD(r,new A.fl(new A.al(0,1/0,0,d),new A.wq(1,d,d,d,g,g,q,g),g),B.ie,!0,!1,!1,!1)}f.a=!1
-f.b=null
-if(h.at!=null||h.as.length!==0){d=A.a1(h.as,!0,t.l7)
-q=h.at
-if(q!=null)d.push(q.a)
-m=A.m2(B.f3,d,B.W,B.ck,g)
-h.gmN()
-h.qD(r,m,B.ii,!0,!1,!1,!0)}d=h.z
-if(d!=null){d.a.gamq()
-f.a=!1
-d=h.z
-if(d!=null)d.a.gdj()
-f.b=e.e8.w
-d=h.z
-d=d==null?g:d.a
-q=h.a.CW
-h.gmN()
-h.B7(r,d,B.dI,!1,q!=null,!1,!1,!0)}f.c=!1
-if(h.Q!=null){a.am(t.iB)
-d=A.W(a)
-l=d.rx.f
-f.c=(l==null?0:l)!==0
-d=h.Q
-d=d==null?g:d.a
-q=h.a.e
-h.gmN()
-h.B7(r,d,B.ij,!1,!0,!1,!1,q!=null)}d=h.a
-d=d.CW
-if(d!=null){h.gmN()
-h.B7(r,d,B.ik,!1,!1,!1,!1,!0)}d=h.ch
-d===$&&A.a()
-q=h.CW
+i.qD(r,new A.fl(new A.al(0,1/0,0,e),new A.wq(1,e,e,e,h,h,q,h),h),B.ie,!0,!1,!1,!1)}g.a=!1
+g.b=null
+if(i.at!=null||i.as.length!==0){e=A.a1(i.as,!0,t.l7)
+q=i.at
+if(q!=null)e.push(q.a)
+n=A.m2(B.f3,e,B.W,B.ck,h)
+i.gmN()
+i.qD(r,n,B.ii,!0,!1,!1,!0)}e=i.z
+if(e!=null){e.a.gamq()
+g.a=!1
+e=i.z
+if(e!=null)e.a.gdj()
+g.b=f.e8.w
+e=i.z
+e=e==null?h:e.a
+q=i.a.CW
+i.gmN()
+i.B7(r,e,B.dI,!1,q!=null,!1,!1,!0)}g.c=!1
+if(i.Q!=null){a.am(t.iB)
+e=A.W(a)
+m=e.rx.f
+g.c=(m==null?0:m)!==0
+e=i.Q
+e=e==null?h:e.a
+q=i.a.e
+i.gmN()
+i.B7(r,e,B.ij,!1,!0,!1,!1,q!=null)}e=i.a
+e=e.CW
+if(e!=null){i.gmN()
+i.B7(r,e,B.ik,!1,!1,!1,!1,!0)}e=i.ch
+e===$&&A.a()
+q=i.CW
 q===$&&A.a()
-p=h.dx
+p=i.dx
 p===$&&A.a()
-o=h.db
+o=i.db
 o===$&&A.a()
-h.a.toString
-h.qD(r,new A.Br(g,d,q,p,o,g),B.il,!0,!0,!0,!0)
-switch(e.w.a){case 2:case 4:h.qD(r,A.nu(B.aQ,g,B.az,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,h.ga6z(),g,g,g),B.ig,!0,!1,!1,!0)
+i.a.toString
+i.qD(r,new A.Br(h,e,q,p,o,h),B.il,!0,!0,!0,!0)
+switch(f.w.a){case 2:case 4:i.qD(r,A.nu(B.aQ,h,B.az,!0,h,h,h,h,h,h,h,h,h,h,h,h,h,h,i.ga6z(),h,h,h),B.ig,!0,!1,!1,!0)
 break
-case 0:case 1:case 3:case 5:break}d=h.x
-q=d.y
-if(q==null?A.k(d).i("bE.T").a(q):q){h.Kf(r,s)
-h.Kg(r,s)}else{h.Kg(r,s)
-h.Kf(r,s)}d=t.w
-q=A.bD(a,B.bj,d).w
-h.gmN()
-p=A.bD(a,B.lt,d).w
-k=q.r.xx(p.f.d)
-q=A.bD(a,B.zE,d).w
-h.gmN()
-d=A.bD(a,B.lt,d).w
-d=d.f.d!==0?0:g
-j=q.w.xx(d)
-i=k.d<=0&&h.a.c
-d=h.a.ch
-if(d==null)d=e.go
-return new A.Rz(!1,new A.z5(A.iL(B.Y,g,A.mR(h.ch,new A.a7c(f,h,i,k,j,s,r),g),B.q,d,0,g,g,g,g,g,B.ex),g),g)}}
+case 0:case 1:case 3:case 5:break}e=i.x
+q=e.y
+if(q==null?A.k(e).i("bE.T").a(q):q){i.Kf(r,s)
+i.Kg(r,s)}else{i.Kg(r,s)
+i.Kf(r,s)}e=t.w
+q=A.bD(a,B.bj,e).w
+i.gmN()
+p=A.bD(a,B.lt,e).w
+l=q.r.xx(p.f.d)
+q=A.bD(a,B.zE,e).w
+i.gmN()
+e=A.bD(a,B.lt,e).w
+e=e.f.d!==0?0:h
+k=q.w.xx(e)
+j=l.d<=0
+if(j)i.a.toString
+e=i.a.ch
+if(e==null)e=f.go
+return new A.Rz(!1,new A.z5(A.iL(B.Y,h,A.mR(i.ch,new A.a7c(g,i,j,l,k,s,r),h),B.q,e,0,h,h,h,h,h,B.ex),h),h)}}
 A.a7b.prototype={
 $0(){this.a.z=this.b},
 $S:0}
@@ -83470,7 +83467,7 @@ case 5:return A.L(null,r)
 case 1:return A.K(p,r)}})
 return A.M($async$vF,r)},
 L(a){var s=this,r=null,q=A.cv(r,[new A.vj(s.f[s.e-1],r),new A.Ak(s.a.c,s.d,r)][s.w],B.q,r,r,B.dM,r,r,r,r),p=$.a0().pb(20,20,B.b8),o=A.V(B.c.av(127.5),0,0,0),n=s.w
-return A.Kh(r,r,q,A.vw(A.F8(new A.v4(B.HI,new A.afi(s),n,o,B.i,B.tQ,r),p),B.W),!1,!1)}}
+return A.Kh(r,r,q,A.vw(A.F8(new A.v4(B.HI,new A.afi(s),n,o,B.i,B.tQ,r),p),B.W),!0,!1)}}
 A.afg.prototype={
 $0(){var s="subscription_id",r=this.a,q=this.b
 r.d=q
