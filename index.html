@@ -3,27 +3,31 @@
 <head>
   <style>
     body {
-      height: auto;
+      margin: 0;
+      height: 100vh;
       overflow: hidden;
-      min-height: 100vh;
-      padding-bottom: 100px; /* Adjust as needed */
-      margin-top: 100px; /* Adjust as needed */
-      position: static !important;
-      overscroll-behavior: none;
+    }
+
+    .app-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: auto;
+    }
+
+    /* Safari-specific CSS */
+    @supports (-webkit-touch-callout: inherit) {
+      body {
+        height: 100vh;
+      }
     }
 
     flutter-view {
       position: fixed !important;
       max-width: 100vw !important;
       max-height: 100vh !important;
-    }
-
-    /* Safari-specific CSS */
-    @supports (-webkit-touch-callout: inherit) {
-      body {
-        height: auto;
-        overflow: hidden;
-      }
     }
   </style>
   <base href="/">
@@ -45,9 +49,14 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-<script src="flutter_bootstrap.js" async></script>
-<script src="https://telegram.org/js/telegram-web-app.js" defer=""></script>
+  <div class="app-container">
+    <!-- Your app content goes here -->
+    <script src="flutter_bootstrap.js" async></script>
+    <script src="https://telegram.org/js/telegram-web-app.js" defer=""></script>
+  </div>
 <script>
+  window.scrollTo(0, 0);
+
   const overflow = 100;
   document.body.style.overflowY = 'hidden';
   document.body.style.marginTop = `${overflow}px`;
