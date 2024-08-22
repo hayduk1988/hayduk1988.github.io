@@ -84207,7 +84207,7 @@ A.afP.prototype={
 $0(){},
 $S:0}
 A.oM.prototype={
-aj(){var s="\ud83d\udcac  Unlimited messaging",r="\ud83d\udcf7  Random photos",q="\ud83e\udd33\ud83c\udffc  Photos on request",p="\ud83d\udcd6  Switch scenarios",o="\ud83d\udc71\ud83c\udffb\u200d\u2640\ufe0f\ud83d\udc69\ud83c\udffb\u200d\ud83e\uddb0\ud83d\udc69\ud83c\udffb\ud83d\udc67\ud83c\udffd\ud83d\udc67\ud83c\udffe  Create your girls (Coming soon...)",n=t.N,m=t.z,l=t.H7
+aj(){var s="\ud83d\udcac  Unlimited messaging",r="\ud83d\udcf7  Random photos",q="\ud83e\udd33\ud83c\udffc  Photos on request",p="\ud83d\udcd6  Switch scenarios",o="\ud83d\udc69\ud83d\udc69\ud83c\udffb\ud83d\udc67\ud83c\udffd  Create your girls (Coming soon...)",n=t.N,m=t.z,l=t.H7
 return new A.DC(A.af(["\ud83e\udd49 Bronze",A.b([A.af(["icon",B.jB,"text",s],n,m),A.af(["icon",B.jC,"text",r],n,m),A.af(["icon",B.jD,"text",q],n,m)],l),"\ud83e\udd48 Silver",A.b([A.af(["icon",B.jB,"text",s],n,m),A.af(["icon",B.jC,"text",r],n,m),A.af(["icon",B.jD,"text",q],n,m),A.af(["icon",B.nC,"text",p],n,m),A.af(["icon",B.nA,"text",o],n,m)],l),"\ud83e\udd47 Gold",A.b([A.af(["icon",B.jB,"text",s],n,m),A.af(["icon",B.jC,"text",r],n,m),A.af(["icon",B.jD,"text","\ud83e\udd33  Photos on request"],n,m),A.af(["icon",B.nC,"text",p],n,m),A.af(["icon",B.Fr,"text","\ud83c\udf99\ufe0f  Voice messaging"],n,m),A.af(["icon",B.nA,"text",o],n,m)],l)],n,t.b5),A.af(["\ud83e\udd49 Bronze","https://t.me/tribute?start=s2a19","\ud83e\udd48 Silver","https://t.me/tribute?start=s2aef","\ud83e\udd47 Gold","https://t.me/tribute?start=s2af0"],n,n),B.k)}}
 A.DC.prototype={
 Hp(){if($.cN==null)$.cN=new A.en()
