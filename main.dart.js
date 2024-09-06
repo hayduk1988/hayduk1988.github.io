@@ -87286,12 +87286,12 @@ l(){var s=this.r
 s===$&&A.a()
 s.aG()
 this.aJ()},
-J(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=A.dX(a,!1,t.u).c,c=f.f
-c===$&&A.a()
-s=c.a<0
-r=f.a6k(c)
-q=d instanceof A.cE?d.a:e
-c=A.U(204,0,0,0)
+J(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d="You received:\n\ud83c\udf81 10 free gifts\n\ud83c\udf81 + ",c=A.dX(a,!1,t.u).c,b=f.f
+b===$&&A.a()
+s=b.a<0
+r=f.a6k(b)
+q=c instanceof A.cE?c.a:e
+b=A.U(204,0,0,0)
 p=A.hk(20)
 o=A.nI(B.cD,0.1)
 n=A.hk(20)
@@ -87302,13 +87302,13 @@ k=$.a2().m3(1,1,B.b_)
 j=A.bL(e,B.Mm,B.l,B.n,e,e,e,e,e,e)
 if(s){i=q.r
 if(i===1)i="You received:\n\ud83c\udf81 10 free gifts\n\ud83d\udcac 20 free messages"
-else i=i===2?"You received:\n\ud83c\udf81 10 free gifts\n\ud83d\udcac 100 free messages":"You received:\n\ud83c\udf81 10 free gifts\n\ud83c\udf81 + "+10*i+" gifts for your membership"
-i=A.bG(i,e,e,e,A.f5(e,e,B.i,e,e,e,e,e,e,e,e,25,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e)}else{i=q.r
+else{h=""+10*i
+i=i===2?d+h+" gifts for your membership.\n\ud83d\udcac 100 free messages":d+h+" gifts for your membership"}i=A.bG(i,e,e,e,A.f5(e,e,B.i,e,e,e,e,e,e,e,e,25,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e)}else{i=q.r
 if(i===1)i="You will recieve:\n\ud83c\udf81 10 free gifts\n\ud83d\udcac 20 free messages\n\nNext reward: "+r
-else i=i===2?"You will recieve:\n\ud83c\udf81 10 free gifts\n\ud83d\udcac 100 free messages\n\nNext reward: "+r:"You will recieve:\n\ud83c\udf81 10 free gifts\n\ud83c\udf81 + "+10*i+" gifts for your membership.\n\nNext reward: "+r
-i=A.bG(i,e,e,e,B.Rr,e,e)}h=s&&!f.w?new A.ajU(f,d):new A.ajV(a)
+else{h=""+10*i
+i=i===2?"You will recieve:\n\ud83c\udf81 10 free gifts/n\ud83c\udf81 + "+h+" gifts for your membership.\n\ud83d\udcac 100 free messages\n\nNext reward: "+r:"You will recieve:\n\ud83c\udf81 10 free gifts\n\ud83c\udf81 + "+h+" gifts for your membership.\n\nNext reward: "+r}i=A.bG(i,e,e,e,B.Rr,e,e)}h=s&&!f.w?new A.ajU(f,c):new A.ajV(a)
 g=t.p
-return A.auo(e,c,A.bL(e,A.av1(B.A,A.I5(B.a_,A.qM(A.aqQ(A.b([j,B.uS,B.i7,i,new A.bz(B.nv,A.ew(A.b([A.xM(A.bG(s?"\ud83c\udf81 Claim now":"\u23f0 Close",e,e,e,B.zZ,e,e),h,e)],g),B.aa,B.a3,B.S),e)],g),B.av,e,!1),k),B.bc)),B.l,e,e,new A.co(e,e,o,n,e,e,B.am),m.a.b*0.8,e,B.nu,l.a.a*0.8),B.l,e,e,e,new A.c_(p,B.q),e)},
+return A.auo(e,b,A.bL(e,A.av1(B.A,A.I5(B.a_,A.qM(A.aqQ(A.b([j,B.uS,B.i7,i,new A.bz(B.nv,A.ew(A.b([A.xM(A.bG(s?"\ud83c\udf81 Claim now":"\u23f0 Close",e,e,e,B.zZ,e,e),h,e)],g),B.aa,B.a3,B.S),e)],g),B.av,e,!1),k),B.bc)),B.l,e,e,new A.co(e,e,o,n,e,e,B.am),m.a.b*0.8,e,B.nu,l.a.a*0.8),B.l,e,e,e,new A.c_(p,B.q),e)},
 a6k(a){var s,r=a.a
 if(r<0)return"00:00:00"
 s=new A.ajR()
